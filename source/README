@@ -1,0 +1,24 @@
+##################################################
+#   History                                      #
+##################################################
+
+= [4.1.0] ??. ???. ????. by Hoyong Jeong =
+  - EMS output format will be supported soon.
+
+= [4.0.3] 10. Mar. 2021. by Hoyong Jeong =
+  - Fix wrong positioning of FWC1
+
+= [4.0.2] 09. Apr. 2019. by Hoyong Jeong =
+  - Default smearing values to zero. Smearing also can be done on Sorter processing.
+  - Paper sheets for FRH1, 2, 3 have been added.
+  - Plexiglass plates for FRH4, 5 have been added.
+  - Density of stainless steal has been adjuested from 8.06 to 7.7. (g/cm3)
+  - Pizza elements of all layers are now more close reducing gaps.
+
+= [4.0.1] 26. Feb. 2019. by Hoyong Jeong =
+  - Enable dE smearing and add resolution option in config
+  - Edit threshold values for layers. I followed rootsorter default options. (MCFilterFDScint.rc)
+  - Some modification for scripts/CheckData.C
+
+= [4.0.0] 28. Jan. 2019. by Hoyong Jeong =
+  - First version of wmc4
